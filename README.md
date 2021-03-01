@@ -54,13 +54,13 @@ chomd a+x spatial_reconstruct
 ```
 at Linux or Mac command prompt. <mcr_directory> is the directory where version 9.3 of the MATLAB Runtime is installed or the directory where MATLAB is installed on the machine.
 for example, If you have MATLAB Runtime installed in ```/mathworks/home/application/v93```, run the shell script as:  
-    ```
-    ./run_Try_spatial_recons_C2.sh /mathworks/home/application/v93  
-    ```
+    ```  
+    ./spatial_reconstruct.sh /mathworks/home/application/v93  
+    ```  
 If you have MATLAB installed in ```/mathworks/devel/application/matlab```, run the shell script as:  
-    ```
-    ./run_Try_spatial_recons_C2.sh /mathworks/devel/application/matlab
-    ```
+    ```  
+    ./spatial_reconstruct.sh /mathworks/devel/application/matlab
+    ```  
 Then, similar to Windows version, just type the path of matrix and 'Y' or 'N' to run the 3D reconstruction.  
 
 # Reference

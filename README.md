@@ -7,13 +7,6 @@ De novo reconstruction of single cell 3D spatial tissue localization is hitherto
 If you find D-CE useful, please give us a star at github and cit our paper.
 
 
-# Reference
-Muscoloni, A., Thomas, J. M., Ciucci, S., Bianconi, G. & Cannistraci, C. V. Machine learning meets complex networks via coalescent embedding in the hyperbolic space. Nat Commun 8, 1615, doi:10.1038/s41467-017-01825-5 (2017).  
-
-Peng, G. et al. Molecular architecture of lineage allocation and tissue organization in early mouse embryo. Nature 572, 528-532, doi:10.1038/s41586-019-1469-8 (2019).  
-
-Nitzan, M., Karaiskos, N., Friedman, N. & Rajewsky, N. Gene expression cartography. Nature 576, 132-137, doi:10.1038/s41586-019-1773-3 (2019).  
-
 # Folders description
 - **visualization.m**
 Matlab codes to visualize the D-CE reconstructed structure of E7.5 Geo-seq;  
@@ -24,9 +17,8 @@ Annotation information of the example data, including layer, germ layer of E7.5 
 - **D-CE_windows**
 Windows version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-**spatial_reconstruct.exe**    
-&emsp;&emsp;-if end users are unable to download the MATLAB Runtime using the link below, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool  
-&emsp;-readme file   
-&emsp;-to run the .exe script, just double click the .exe script  
+&emsp;-**readme file**   
+
 - **D-CE_linux**
 Linux version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-**spatial_reconstruct**  
@@ -36,7 +28,7 @@ Linux version of the main function of spatial reconstruction, includes the codes
 # Requirements
 **MATLAB(>=R2017b)**
 
-**MATLAB Runtime installer** To find its location,enter *mcrinstaller* at the MATLAB prompt.
+**MATLAB Runtime installer** To find its location,enter *mcrinstaller* at the MATLAB prompt. If you can't download the MATLAB Runtime using the link below, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool 
 
 **MatlabBGL library** The support functions of the MatlabBGL library can be downloaded at:
 http://mathworks.com/matlabcentral/fileexchange/10922-matlabbgl
@@ -51,10 +43,20 @@ To run the demo,first you need to paste the **expE7.5allsample.txt** into the sa
 
 ## For Linux User
 ```
+git clone https://github.com/JackieHanLab/D-CE
+cd D-CE/D-CE_linux
 chomd a+x spatial_reconstruct.sh
 chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
+
+# Reference
+Muscoloni, A., Thomas, J. M., Ciucci, S., Bianconi, G. & Cannistraci, C. V. Machine learning meets complex networks via coalescent embedding in the hyperbolic space. Nat Commun 8, 1615, doi:10.1038/s41467-017-01825-5 (2017).  
+
+Peng, G. et al. Molecular architecture of lineage allocation and tissue organization in early mouse embryo. Nature 572, 528-532, doi:10.1038/s41586-019-1469-8 (2019).  
+
+Nitzan, M., Karaiskos, N., Friedman, N. & Rajewsky, N. Gene expression cartography. Nature 576, 132-137, doi:10.1038/s41586-019-1773-3 (2019).  
+
 
 # Contact  
 For any problems, please contact:  

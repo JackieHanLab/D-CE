@@ -36,10 +36,12 @@ windows version of the main function of spatial reconstruction, includes the cod
 
 # Requirements
 **MATLAB(>=R2017b)**
+
 **MATLAB Runtime installer** To find its location,enter mcrinstaller at the MATLAB prompt.
 
 **MatlabBGL library** The support functions of the MatlabBGL library can be downloaded at:
 http://mathworks.com/matlabcentral/fileexchange/10922-matlabbgl
+
 **PROPACK library**The support functions of the PROPACK library can be downloaded at:
 https://github.com/mavenlin/PropackMatlab4Windows
 https://github.com/epfl-lts2/unlocbox/tree/master/test_bench/private

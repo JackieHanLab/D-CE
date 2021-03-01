@@ -53,7 +53,7 @@ chomd a+x spatial_reconstruct.sh
 chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
- <mcr_directory> is the directory where version MATLAB Runtime installed or the directory where MATLAB is installed on the machine. For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
+ **<mcr_directory>** is the directory where version MATLAB Runtime installed or the directory where MATLAB is installed on the machine. For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
 ```  
 ./spatial_reconstruct.sh /mathworks/home/application/v93  
 ```  

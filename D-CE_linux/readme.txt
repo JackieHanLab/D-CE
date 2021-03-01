@@ -40,12 +40,17 @@ Files to Package for Standalone
     If you have version 9.3 of the MATLAB Runtime installed in 
     /mathworks/home/application/v93, run the shell script as:
     
-       ./spatial_reconstruct.sh /mathworks/home/application/v93
+       ./run_Try_spatial_recons_C2.sh /mathworks/home/application/v93
        
     If you have MATLAB installed in /mathworks/devel/application/matlab, 
     run the shell script as:
     
-       ./spatial_reconstruct.sh /mathworks/devel/application/matlab
+       ./run_Try_spatial_recons_C2.sh /mathworks/devel/application/matlab
+-MCRInstaller.zip
+    Note: if end users are unable to download the MATLAB Runtime using the
+    instructions in the previous section, include it when building your 
+    component by clicking the "Runtime downloaded from web" link in the
+    Deployment Tool.
 -This readme file 
 
 3. Definitions

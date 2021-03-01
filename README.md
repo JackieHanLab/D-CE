@@ -11,9 +11,9 @@ If you find D-CE useful, please give us a star at github and cite our paper.
 - **visualization.m**
 Matlab codes to visualize the D-CE reconstructed structure of E7.5 Geo-seq;  
 - **expE7.5allsample.txt**
-An example data of Geo-seq gene expression matrix, with genes on the columns and samples on the rows;  
+An example of input data from Geo-seq gene E7.5 sample, with genes on the columns and samples on the rows, there no need for rownames and colnames;  
 - **Info.mat**
-Annotation information of the example data, including layer, germ layer of E7.5 and color for visualization;  
+Sample annotation information of the example input data, including layer, germ layer of E7.5 and color for visualization;  
 - **D-CE_windows**
 Windows version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-**spatial_reconstruct.exe**    
@@ -45,6 +45,7 @@ https://github.com/epfl-lts2/unlocbox/tree/master/test_bench/private
 To run the demo, just double click the **spatial_reconstruct.exe**, then type the path of the expression data 'expE7.5allsample.txt', and 'Y' or 'N', which means you will or won't use CSI matrix in the 3D reconstruction. Wait about 10 secounds for the output file '3Dcoordinates.txt', which is the reconstructed 3D coordinates of the example sample. Finally, run **visualization.m** in MATLAB for visualization.
 
 ## For Linux User
+Type the following command
 ```
 git clone https://github.com/JackieHanLab/D-CE
 cd D-CE/D-CE_linux
@@ -53,7 +54,7 @@ chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
 at Linux or Mac command prompt. <mcr_directory> is the directory where version 9.3 of the MATLAB Runtime is installed or the directory where MATLAB is installed on the machine.
-for example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
+For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
 ```  
 ./spatial_reconstruct.sh /mathworks/home/application/v93  
 ```  

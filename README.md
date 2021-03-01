@@ -49,6 +49,7 @@ chomd a+x spatial_reconstruct.sh
 chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
+Then, similar to Windows version, just type the path of matrix and 'Y'/'N' to run the 3D reconstruction.
 
 # Reference
 Muscoloni, A., Thomas, J. M., Ciucci, S., Bianconi, G. & Cannistraci, C. V. Machine learning meets complex networks via coalescent embedding in the hyperbolic space. Nat Commun 8, 1615, doi:10.1038/s41467-017-01825-5 (2017).  

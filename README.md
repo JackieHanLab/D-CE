@@ -15,20 +15,20 @@ Peng, G. et al. Molecular architecture of lineage allocation and tissue organiza
 Nitzan, M., Karaiskos, N., Friedman, N. & Rajewsky, N. Gene expression cartography. Nature 576, 132-137, doi:10.1038/s41586-019-1773-3 (2019).  
 
 # Folders description
-- visualization.m
+- *visualization.m*
 Matlab codes to visualize the D-CE reconstructed structure of E7.5 Geo-seq, respectively;  
-- expE7.5allsample.txt
+- *expE7.5allsample.txt*
 Gene expression data used for testgeo.m, respectively;  
-- Info.mat
+- *Info.mat*
 Annotation for samples in E7.5, including layer, germ layer and color for visualization;  
-- D-CE windows
+- *D-CE_windows*
 windows version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-spatial_reconstruct.exe  
 &emsp;-MCRInstaller.exe   
 &emsp;&emsp;-if end users are unable to download the MATLAB Runtime using the link below, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool  
 &emsp;-readme file   
 &emsp;-to run the .exe script, just double click the .exe script  
-- D-CE linux
+- *D-CE_linux*
 windows version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-Try_spatial_recons_C2  
 &emsp;-run_Try_spatial_recons_C2.sh (shell script for temporarily setting environment variables and executing the application)  

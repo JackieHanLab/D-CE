@@ -45,7 +45,7 @@ https://github.com/epfl-lts2/unlocbox/tree/master/test_bench/private
 To run the demo, just double click the **spatial_reconstruct.exe**, then type the path of the expression data 'expE7.5allsample.txt', and 'Y' or 'N', which means you will or won't use CSI matrix in the 3D reconstruction. Wait about 10 secounds for the output file '3Dcoordinates.txt', which is the reconstructed 3D coordinates of the example sample. Finally, run **visualization.m** in MATLAB for visualization.
 
 ## For Linux User
-Type the following command
+Type the following command at Linux or Mac command prompt:
 ```
 git clone https://github.com/JackieHanLab/D-CE
 cd D-CE/D-CE_linux
@@ -53,8 +53,7 @@ chomd a+x spatial_reconstruct.sh
 chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
-at Linux or Mac command prompt. <mcr_directory> is the directory where version 9.3 of the MATLAB Runtime is installed or the directory where MATLAB is installed on the machine.
-For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
+ <mcr_directory> is the directory where version MATLAB Runtime installed or the directory where MATLAB is installed on the machine. For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
 ```  
 ./spatial_reconstruct.sh /mathworks/home/application/v93  
 ```  

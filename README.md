@@ -28,11 +28,10 @@ Windows version of the main function of spatial reconstruction, includes the cod
 &emsp;-readme file   
 &emsp;-to run the .exe script, just double click the .exe script  
 - **D-CE_linux**
-windows version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
+Linux version of the main function of spatial reconstruction, includes the codes for expression matrix normalization, pair-wise distance calculation and dimensionality reduction based on coalescent embedding and integrated into one function;  
 &emsp;-**spatial_reconstruct**  
 &emsp;-**spatial_reconstruct.sh** (shell script for temporarily setting environment variables and executing the application)  
 &emsp;-**readme file**  
-&emsp;-to run the shell script, type ./run_Try_spatial_recons_C2.sh <mcr_directory>  
 
 # Requirements
 **MATLAB(>=R2017b)**
@@ -47,11 +46,15 @@ https://github.com/mavenlin/PropackMatlab4Windows
 https://github.com/epfl-lts2/unlocbox/tree/master/test_bench/private
 
 # Usage
-To run the demo, paste the gene expression data, the Annotation of the samples and the software in the same folder, run the software, then type 'expE7.5allsample.txt', which claim the path of the expression data and 'N', which means we don't use CSI matrix in the reconstruction, the output '3Dcoordinates.txt' is the reconstructed 3D coordinates of the samples, then run 'visualization.m' and get the visualization of the reconstruction  
+## For Windows User
+To run the demo,first you need to paste the **expE7.5allsample.txt** into the same folder of **spatial_reconstruct.exe**. Next, just double click the **spatial_reconstruct.exe**, then type 'expE7.5allsample.txt', which claim the path of the expression data and 'Y' or 'N', which means you will use or don't use CSI matrix in the 3D reconstruction. Wait about 10 secounds for the output file '3Dcoordinates.txt',which is the reconstructed 3D coordinates of the example sample. Finally, run **visualization.m** in MATLAB for visualization.
 
-
-
-
+## For Linux User
+```
+chomd a+x spatial_reconstruct.sh
+chomd a+x spatial_reconstruct
+./spatial_reconstruct.sh <mcr_directory>
+```
 
 # Contact  
 For any problems, please contact:  

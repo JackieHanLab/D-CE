@@ -4,7 +4,7 @@ D-CE (Developmental Coalescent Embedding): An effective landmark free and model 
 # Introduction
 De novo reconstruction of single cell 3D spatial tissue localization is hitherto landmark based so far, and de novo spatial reconstruction is a compelling computational open problem.Theoretically, cells adjacent in space have similar gene expression patterns, for example, the anterior and posterior determination during embryonic development.We rely merely on the spatial information encoded in the gene expression patterns, and we find that D-CE of cell-cell association DST-transcriptomic networks can reliably reconstructs the single cell samples 3D spatial tissue distribution. 
 
-If you find D-CE useful, please give us a star at github and cit our paper.
+If you find D-CE useful, please give us a star at github and cite our paper.
 
 
 # Folders description

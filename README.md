@@ -29,7 +29,7 @@ Linux version of the main function of spatial reconstruction, includes the codes
 **MATLAB(>=R2017b)**
 
 **MATLAB Runtime** please verify the MATLAB Runtime is installed and ensure you have installed version 9.2 (R2017a) for windows or version 9.3 (R2017b) for linux. If not, do as follow:  
-&emsp;(1) enter 'mcrinstaller' at MATLAB prompt. The MCRINSTALLER command displays the location of the MATLAB Runtime installer
+&emsp;(1) enter 'mcrinstaller' at MATLAB prompt. The MCRINSTALLER command displays the location of the MATLAB Runtime installer  
 &emsp;(2) run the MATLAB Runtime installer. Or download right version of the MATLAB Runtime from the MathWorks Web site  
 &emsp;http://www.mathworks.com/products/compiler/mcr/index.html
 

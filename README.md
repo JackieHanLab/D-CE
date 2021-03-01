@@ -26,7 +26,7 @@ Linux version of the main function of spatial reconstruction, includes the codes
 &emsp;-**readme file**  
 
 # Requirements
-**MATLAB(>=R2017b)**
+**MATLAB(>=R2017b)**.
 
 **MATLAB Runtime** please verify the MATLAB Runtime is installed and ensure you have installed version 9.2 (R2017a) for windows or version 9.3 (R2017b) for linux. If not, do as follow:  
 &emsp;(1) enter 'mcrinstaller' at MATLAB prompt. The MCRINSTALLER command displays the location of the MATLAB Runtime installer  
@@ -53,11 +53,13 @@ chomd a+x spatial_reconstruct
 ./spatial_reconstruct.sh <mcr_directory>
 ```
 at Linux or Mac command prompt. <mcr_directory> is the directory where version 9.3 of the MATLAB Runtime is installed or the directory where MATLAB is installed on the machine.
-for example, If you have MATLAB Runtime installed in ```/mathworks/home/application/v93```, run the shell script as:  
+for example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
+
     ```  
     ./spatial_reconstruct.sh /mathworks/home/application/v93  
     ```  
-If you have MATLAB installed in ```/mathworks/devel/application/matlab```, run the shell script as:  
+If you have MATLAB installed in */mathworks/devel/application/matlab*, run the shell script as:  
+
     ```  
     ./spatial_reconstruct.sh /mathworks/devel/application/matlab
     ```  

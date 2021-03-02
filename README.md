@@ -11,7 +11,7 @@ If you find D-CE useful, please give us a star at github and cite our paper.
 - **visualization.m**
 Matlab codes to visualize the D-CE reconstructed structure of E7.5 Geo-seq;  
 - **expE7.5allsample.txt**
-An example of input data from Geo-seq gene E7.5 sample, with genes on the columns and samples on the rows, there no need for rownames and colnames;  
+An example of input data from Geo-seq gene E7.5 sample, with genes on the columns and samples on the rows, there is no need for rownames and colnames;  
 - **Info.mat**
 Sample annotation information of the example input data, including layer, germ layer of E7.5 and color for visualization;  
 - **D-CE_windows**

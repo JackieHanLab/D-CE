@@ -51,16 +51,16 @@ git clone https://github.com/JackieHanLab/D-CE
 cd D-CE/D-CE_linux
 chomd a+x spatial_reconstruct.sh
 chomd a+x spatial_reconstruct
-./spatial_reconstruct.sh <mcr_directory>
+./spatial_reconstruct.sh <mcr_directory> expE7.5allsample.txt 0  
 ```
  **<mcr_directory>** is the directory where version MATLAB Runtime installed or the directory where MATLAB is installed on the machine. For example, If you have MATLAB Runtime installed in */mathworks/home/application/v93*, run the shell script as:  
 ```  
-./spatial_reconstruct.sh /mathworks/home/application/v93  
+./spatial_reconstruct.sh /mathworks/home/application/v93 expE7.5allsample.txt 0
 ```  
 If you have MATLAB installed in */mathworks/devel/application/matlab*, run the shell script as:  
 
 ```  
-./spatial_reconstruct.sh /mathworks/devel/application/matlab
+./spatial_reconstruct.sh /mathworks/devel/application/matlab expE7.5allsample.txt 0
 ```  
 Then, similar to Windows version, just type the path of matrix and 'Y' or 'N' to run the 3D reconstruction.  
 

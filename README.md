@@ -25,6 +25,13 @@ Linux version of the main function of spatial reconstruction, includes the codes
 &emsp;-**spatial_reconstruct.sh** (shell script for temporarily setting environment variables and executing the application)  
 &emsp;-**readme file**  
 
+- **mapping and EOC**
+the function for one to one mapping of samples to the spatial locations and EOC spatial marker selection;  
+&emsp;-**EOC_MarkerGeneSelection.R**  R code for marker gene selection
+&emsp;-**TPM.txt, Reconstructed_Coordinate.txt** expression matrix and spatial coodinates matrix, as the input of marker gene selection function  
+&emsp;-**mapping.py** python function for mapping of samples to the spatial locations 
+&emsp;-**coordreconstruct.txt, geometry.txt**  D-CE reconstructed coordinates and spatial coodinates matrix, as the input of mapping function
+
 # Requirements
 **MATLAB(>=R2017b)**.
 
@@ -62,7 +69,14 @@ If you have MATLAB installed in */mathworks/devel/application/matlab*, run the s
 ```  
 ./spatial_reconstruct.sh /mathworks/devel/application/matlab
 ```  
-Then, similar to Windows version, just type the path of matrix and 'Y' or 'N' to run the 3D reconstruction.  
+Then, similar to Windows version, just type the path of matrix and 'Y' or 'N' to run the 3D reconstruction. 
+
+To run the demo for mapping of samples to spatial coordinates, type the following command:
+```  
+python mapping.py -c [path of reconstructed coordinates] -t [path of spatial coordinates of locations]
+``` 
+
+
 
 # Reference
 Muscoloni, A., Thomas, J. M., Ciucci, S., Bianconi, G. & Cannistraci, C. V. Machine learning meets complex networks via coalescent embedding in the hyperbolic space. Nat Commun 8, 1615, doi:10.1038/s41467-017-01825-5 (2017).  

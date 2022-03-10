@@ -27,7 +27,7 @@ Linux version of the main function of spatial reconstruction, includes the codes
 
 - **mapping and EOC**
 the function for one to one mapping of samples to the spatial locations and EOC spatial marker selection;  
-&emsp;-**EOC_MarkerGeneSelection.R**  R code for marker gene selection
+&emsp;-**EOC_MarkerGeneSelection.R** R code for marker gene selection
 &emsp;-**TPM.txt, Reconstructed_Coordinate.txt** expression matrix and spatial coodinates matrix, as the input of marker gene selection function  
 &emsp;-**mapping.py** python function for mapping of samples to the spatial locations 
 &emsp;-**coordreconstruct.txt, geometry.txt**  D-CE reconstructed coordinates and spatial coodinates matrix, as the input of mapping function
